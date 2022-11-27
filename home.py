@@ -46,28 +46,27 @@ def aboutus():
     mainloop()
 def screen():
     global screen
-    screen= Tk()
-    screen.geometry('925x500+300+200')
-    screen.title("Home Management(Main)")
-    label1 = Label(screen)
-    label1.place(relx=0, rely=0, width=925, height=500)
-    img = PhotoImage(file=r'.\project photo\Picsart_22-11-24_06-01-35-065.png')
-    label1.configure(image=img)
+screen= Tk()
+screen.geometry('925x500+300+200')
+screen.title("Home Management(Main)")
+label1 = Label(screen)
+label1.place(relx=0, rely=0, width=925, height=500)
+img = PhotoImage(file=r'.\project photo\Picsart_22-11-24_06-01-35-065.png')
+label1.configure(image=img)
 
-    img2 = PhotoImage(file=r'.\project photo\download.png')
-    screen.iconphoto(False,img2)
-    screen.resizable(False,False)
-    img3 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-28-09-892 (2) (1).png')
-    img4 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-33-44-411 (1).png')
-    img5 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-37-57-868.png')
-    img6 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-38-32-694 (1).png')
-
-
-
-    Button(screen,image=img3,border=2,command=income).place(x=100,y=200)
-    Button(screen,image=img4,border=2,command=expanse).place(x=300,y=200)
-    Button(screen,image=img5,border=2,command=data).place(x=500,y=200)
-    Button(screen,image=img6,border=2,command=aboutus).place(x=700,y=200)
+img2 = PhotoImage(file=r'.\project photo\download.png')
+screen.iconphoto(False,img2)
+screen.resizable(False,False)
+img3 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-28-09-892 (2) (1).png')
+img4 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-33-44-411 (1).png')
+img5 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-37-57-868.png')
+img6 = PhotoImage(file=r'.\project photo\Picsart_22-11-23_19-38-32-694 (1).png')
 
 
-screen()
+
+Button(screen,image=img3,border=2,command=income).place(x=100,y=200)
+Button(screen,image=img4,border=2,command=expanse).place(x=300,y=200)
+Button(screen,image=img5,border=2,command=data).place(x=500,y=200)
+Button(screen,image=img6,border=2,command=aboutus).place(x=700,y=200)
+
+mainloop()

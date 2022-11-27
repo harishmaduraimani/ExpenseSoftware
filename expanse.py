@@ -103,7 +103,7 @@ def screen():
 #---------------------------Creating TK Mamin screen--------------------------------#
 screen2=Tk()
 screen2.geometry("925x500+300+200")
-screen2.title("Home Management(Expanse)")
+screen2.title("Home Management(Expense)")
 screen2.resizable(False,False)
 img21=PhotoImage(file=r'.\project photo\download (1).png')
 screen2.iconphoto(False,img21)
@@ -116,12 +116,12 @@ lable11.configure(image=img22)
 
 #------------------------------------frames in main screen----------------------------#
 frame11=Frame(screen2,bg='white',width=875,height=450).place(x=25,y=25)
-lable11=Label(frame11,text="Expanse",bg="white",fg="black",font=("times new roman",25,"bold")).place(x=400,y=50)
+lable11=Label(frame11,text="Expense",bg="white",fg="black",font=("times new roman",25,"bold")).place(x=400,y=50)
 
 framelable11=LabelFrame(frame11,text="Details",bg="white",fg="black",font=("times new roman",10,"bold"))
 framelable11.place(x="27",y="100",width='870',height='50')
 
-framelable12=LabelFrame(frame11,text="Expanse",bg="white",fg="black",font=("times new roman",10,"bold"))
+framelable12=LabelFrame(frame11,text="Expense",bg="white",fg="black",font=("times new roman",10,"bold"))
 framelable12.place(x="27",y="150",width='400',height='320')
 
 framelable13=LabelFrame(frame11,text="Gentrate",bg="white",fg="black",font=("times new roman",10,"bold"))
