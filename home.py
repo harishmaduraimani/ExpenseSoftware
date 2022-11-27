@@ -1,6 +1,5 @@
 from tkinter import*
 from tkinter import messagebox
-
 def income():
     screen1=Toplevel(screen)
     screen1.geometry("925x500+300+200")

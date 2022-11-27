@@ -1,6 +1,6 @@
 from tkinter import*
 from tkinter import messagebox
-
+from income import screen
           
 def income():
     screen1=Toplevel(screen)
